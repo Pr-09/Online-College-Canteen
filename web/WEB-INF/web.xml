@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<web-app >
+
+    <!-- SMTP email config as context params -->
+    <context-param>
+        <param-name>smtpHost</param-name>
+        <param-value>smtp.gmail.com</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>smtpPort</param-name>
+        <param-value>587</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>smtpUser</param-name>
+        <param-value>pr7509645@gmail.com</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>smtpPass</param-name>
+        <param-value>zxfk vqjl tnnz qtmv</param-value> <!-- Make sure this is your Gmail App Password -->
+    </context-param>
+
+    <!-- Login Servlet -->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Place Order Servlet -->
+    <servlet>
+        <servlet-name>PlaceOrderServlet</servlet-name>
+        <servlet-class>servlet.PlaceOrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PlaceOrderServlet</servlet-name>
+        <url-pattern>/PlaceOrderServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Add Menu Item Servlet -->
+    <servlet>
+        <servlet-name>AddMenuItemServlet</servlet-name>
+        <servlet-class>servlet.AddMenuItemServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddMenuItemServlet</servlet-name>
+        <url-pattern>/AddMenuItemServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Update Order Status Servlet -->
+    <servlet>
+        <servlet-name>UpdateOrderStatusServlet</servlet-name>
+        <servlet-class>servlet.UpdateOrderStatusServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateOrderStatusServlet</servlet-name>
+        <url-pattern>/UpdateOrderStatusServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Mark Delivered Servlet -->
+    <servlet>
+        <servlet-name>MarkDeliveredServlet</servlet-name>
+        <servlet-class>servlet.MarkDeliveredServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MarkDeliveredServlet</servlet-name>
+        <url-pattern>/MarkDeliveredServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Payment Servlet (Prince) -->
+    <servlet>
+        <servlet-name>Prince</servlet-name>
+        <servlet-class>servlet.Prince</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Prince</servlet-name>
+        <url-pattern>/Prince</url-pattern>
+    </servlet-mapping>
+
+    <!-- Update Order Servlet -->
+    <servlet>
+        <servlet-name>UpdateOrderServlet</servlet-name>
+        <servlet-class>servlet.UpdateOrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateOrderServlet</servlet-name>
+        <url-pattern>/UpdateOrderServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
+</root>
