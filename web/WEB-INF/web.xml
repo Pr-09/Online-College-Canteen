@@ -3,25 +3,7 @@
 <web-app >
 
     <!-- SMTP email config as context params -->
-    <context-param>
-        <param-name>smtpHost</param-name>
-        <param-value>smtp.gmail.com</param-value>
-    </context-param>
-
-    <context-param>
-        <param-name>smtpPort</param-name>
-        <param-value>587</param-value>
-    </context-param>
-
-    <context-param>
-        <param-name>smtpUser</param-name>
-        <param-value>pr7509645@gmail.com</param-value>
-    </context-param>
-
-    <context-param>
-        <param-name>smtpPass</param-name>
-        <param-value>zxfk vqjl tnnz qtmv</param-value> <!-- Make sure this is your Gmail App Password -->
-    </context-param>
+  Sensitive Content hide
 
     <!-- Login Servlet -->
     <servlet>
