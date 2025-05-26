@@ -17,3 +17,13 @@ Supports different user roles—Student, Teacher, and Guest—for a personalized
 
 5. Peak-Hour Efficiency:-
 Optimized for handling high traffic during lunch breaks and college events, improving overall service efficiency.
+
+Using tech stacks:- 
+| Layer               | Technology                     |
+| ------------------- | ------------------------------ |
+| **Frontend**        | HTML, CSS, JavaScript (or JSP) |
+| **Backend**         | Java Servlets, JSP             |
+| **Database**        | MySQL                          |
+| **Server**          | Apache Tomcat                  |
+| **Tools & IDEs**    | Netbeans                       |
+| **Version Control** | Git & GitHub                   |
