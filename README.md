@@ -1,14 +1,15 @@
-Online-College-Canteen
+# Online-College-Canteen
+
 🍽️ The Online Canteen Ordering System is a web-based application designed to improve the food ordering experience within a college environment. It helps reduce crowding and wait times by allowing users to browse the menu and place orders directly from their devices.
 
-🍴 Online College Canteen
+# 🍴 Online College Canteen
 📅 Duration: January 2025 – May 2025
 🛠️ Technologies Used: JSP, Servlet, JDBC, Spring Boot, Spring Data JPA, MySQL, HTML, CSS
 
-🏫 Industry
+# 🏫 Industry
 Education / Food-Tech
 
-📌 Project Title
+# 📌 Project Title
 Online College Canteen Ordering System
 
 ❓ Problem Statement / Opportunity
@@ -81,41 +82,51 @@ Using tech stacks:-
 | **Version Control** | Git & GitHub                   |
 
 ⚙️ Setup Instructions (Local)
-1️⃣ Clone the Repository
+
+# 1️⃣ Clone the Repository
 git clone https://github.com/your-username/OnlineCollegeCanteen.git
 cd OnlineCollegeCanteen
 Got it ✅ Here’s your complete **README.md file** (all in one Markdown file, clean and ready to use):
 
-````markdown
+
 # 🍴 Online College Canteen Management System
 
----
+
 
 ## 2️⃣ Setup Database (MySQL)
+
 ```sql
 CREATE DATABASE canteen_db;
 3️⃣ JSP + Servlet + JDBC Version
 Import into Eclipse/IntelliJ
+
+
 Configure JDBC connection in DBConnection.java:
 String url = "jdbc:mysql://localhost:3306/canteen_db";
 String username = "root";
 String password = "yourpassword";
+
 Deploy on Apache Tomcat
 Access at: http://localhost:8080/OnlineCollegeCanteen
 
-🎯 Role & Responsibilities
+```
+
+# 🎯 Role & Responsibilities
+
 Designed and developed Java web application using JSP, Servlet, DAO, and POJO
 Implemented database connectivity & modeling with JDBC + MySQL
 Migrated application to Spring Boot + JPA for modern scalability
 Built secure session handling & order management system
 Designed responsive JSP pages with HTML & CSS
-🌟 Future Enhancements
+
+# 🌟 Future Enhancements
 💳 Online Payment Gateway (UPI/Wallet/NetBanking)
 📱 Mobile App version (Android/iOS)
 🔔 Push Notifications for order updates
 📊 Analytics Dashboard for Admin
 🧾 Digital Invoice Generation
-👨‍💻 Contributor
+
+# 👨‍💻 Contributor
 Prince Rajput – Leader , Frontend , Backend And Database(DBA) :https://github.com/Pr-09 .
 
 Nityanand Dwivedi – Developer, Frontend , Backend , PPT, Content : https://github.com/nitya45 .
