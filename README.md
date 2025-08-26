@@ -1,146 +1,184 @@
-# Online-College-Canteen
+# 🍴 Online College Canteen Management System  
 
-🍽️ The Online Canteen Ordering System is a web-based application designed to improve the food ordering experience within a college environment. It helps reduce crowding and wait times by allowing users to browse the menu and place orders directly from their devices.
+🍽️ The **Online Canteen Ordering System** is a web-based application designed to improve the food ordering experience within a college environment. It reduces crowding and wait times by allowing users to browse menus, place orders, and track status directly from their devices.  
 
-# 🍴 Online College Canteen
-📅 Duration: January 2025 – May 2025
-🛠️ Technologies Used: JSP, Servlet, JDBC, Spring Boot, Spring Data JPA, MySQL, HTML, CSS
+---
 
-# 🏫 Industry
-Education / Food-Tech
+## 📅 Project Duration  
+**January 2025 – May 2025**  
 
-# 📌 Project Title
-Online College Canteen Ordering System
+## 🛠️ Technologies Used  
+- JSP, Servlet, JDBC  
+- Spring Boot, Spring Data JPA  
+- MySQL  
+- HTML, CSS, JavaScript  
+- Apache Tomcat  
+- NetBeans / IntelliJ IDEA  
+- Git & GitHub  
 
-❓ Problem Statement / Opportunity
-Managing food orders in college canteens is often chaotic due to long queues, delayed service, and lack of transparency.
-The opportunity lies in developing an online canteen ordering system where students can browse menus, place orders digitally, and track order status. This not only saves time but also improves canteen efficiency and user satisfaction.
+---
 
-📖 Project Description
-The Online College Canteen Ordering System is a web application built in two phases:
+## 🏫 Industry  
+**Education / Food-Tech**  
 
-JSP + Servlet + JDBC (Core Java Web App)
+---
 
-Implemented MVC architecture with DAO and POJO classes for database interaction.
-Users can browse menus, add items to cart, select a table, and place orders.
-Admins can manage food items and track customer orders.
-Spring Boot + JPA (Enhanced Version)
+## 📌 Project Title  
+**Online College Canteen Ordering System**  
 
-Migrated to Spring Boot for scalability and modularity.
-Built REST APIs for menu, order, and user management.
-Integrated Spring Data JPA for efficient database operations.
-The system provides an interactive interface for users and a robust management panel for admins.
+---
 
-Key Features
+## ❓ Problem Statement  
 
-1. Digital Menu Access:-
-Users can easily view the canteen menu on their smartphones or other devices.
+Managing food orders in college canteens is often chaotic due to:  
+- Long queues  
+- Delayed service  
+- Lack of transparency  
 
-2. Table-Side Ordering:-
-Orders can be placed directly from the table, eliminating the need to stand in queues.
+✅ **Opportunity**: Develop an **online canteen ordering system** where students can browse menus, place orders digitally, and track order status. This improves efficiency, reduces wait time, and enhances user satisfaction.  
 
-3. Real-Time Order Tracking:-
-Users receive live updates on their order status, ensuring a smoother experience.
+---
 
-4. Role-Based Access:-
-Supports different user roles—Student, Teacher, and Guest—for a personalized interface and ordering flow.
+## 📖 Project Description  
 
-5. Peak-Hour Efficiency:-
-Optimized for handling high traffic during lunch breaks and college events, improving overall service efficiency.
+The project is built in **two phases**:  
 
-🛠️ Admin (Canteen Manager)
-Secure login
-Add/Edit/Delete menu items & categories
-View & manage user orders
-Update order status (Pending → Preparing → Ready → Delivered)
-Manage table availability
+### 1️⃣ JSP + Servlet + JDBC (Core Java Web App)  
+- Implemented **MVC architecture** with DAO and POJO classes.  
+- Users can browse menus, add items to cart, select a table, and place orders.  
+- Admins can manage food items and track customer orders.  
 
-🔒 Security
-Role-based authentication (User & Admin)
-Session handling in JSP/Servlet version
-Spring Security in Spring Boot version
-Secure database interactions with DAO/POJO and JPA
+### 2️⃣ Spring Boot + JPA (Enhanced Version)  
+- Migrated to **Spring Boot** for scalability and modularity.  
+- Built **REST APIs** for menu, order, and user management.  
+- Integrated **Spring Data JPA** for efficient database operations.  
+- Provided an interactive interface for users and a **robust admin panel**.  
 
-📦 Order Management System
-Prevents duplicate orders
-Cancelling an order frees up the table
-Real-time status updates for users
-📸 Screenshots (Add Images Later)
-🏠 Home Page
-📋 Food Menu
-🛒 Cart & Checkout
-📊 Admin Dashboard
+---
 
-Using tech stacks:- 
+## 🚀 Key Features  
+
+1. **Digital Menu Access** – View menu on smartphones or devices.  
+2. **Table-Side Ordering** – Place orders without standing in queues.  
+3. **Real-Time Order Tracking** – Live updates for smooth experience.  
+4. **Role-Based Access** – Supports **Student, Teacher, and Guest** roles.  
+5. **Peak-Hour Efficiency** – Optimized for high-traffic lunch breaks/events.  
+
+---
+
+## 🛠️ Admin (Canteen Manager) Features  
+
+- Secure login  
+- Add/Edit/Delete menu items & categories  
+- Manage user orders  
+- Update order status (Pending → Preparing → Ready → Delivered)  
+- Manage table availability  
+
+---
+
+## 🔒 Security  
+
+- **Role-based authentication** (User & Admin)  
+- **Session handling** in JSP/Servlet version  
+- **Spring Security** in Spring Boot version  
+- Secure database interactions with DAO/POJO and JPA  
+
+---
+
+## 📦 Order Management  
+
+- Prevents duplicate orders  
+- Cancelling order frees up the table  
+- Real-time status updates  
+
+---
+
+## 📸 Screenshots *(To be added later)*  
+
+- 🏠 Home Page  
+- 📋 Food Menu  
+- 🛒 Cart & Checkout  
+- 📊 Admin Dashboard  
+
+---
+
+## 🧑‍💻 Tech Stack  
+
 | Layer               | Technology                     |
 | ------------------- | ------------------------------ |
-| **Frontend**        | HTML, CSS, JavaScript (or JSP) |
-| **Backend**         | Java Servlets, JSP             |
+| **Frontend**        | HTML, CSS, JavaScript, JSP      |
+| **Backend**         | Java Servlets, JSP, Spring Boot |
 | **Database**        | MySQL                          |
 | **Server**          | Apache Tomcat                  |
-| **Tools & IDEs**    | Netbeans                       |
-| **Version Control** | Git & GitHub                   |
+| **Tools & IDEs**    | NetBeans, IntelliJ IDEA         |
+| **Version Control** | Git & GitHub                   |  
 
-⚙️ Setup Instructions (Local)
+---
 
-# 1️⃣ Clone the Repository
+## ⚙️ Setup Instructions (Local)  
+
+### 1️⃣ Clone the Repository  
+```bash
 git clone https://github.com/your-username/OnlineCollegeCanteen.git
 cd OnlineCollegeCanteen
-Got it ✅ Here’s your complete **README.md file** (all in one Markdown file, clean and ready to use):
+```
+2️⃣ Setup Database (MySQL)
 
 
-# 🍴 Online College Canteen Management System
-
-
-
-## 2️⃣ Setup Database (MySQL)
-
-```sql
+```bash
 CREATE DATABASE canteen_db;
+```
 3️⃣ JSP + Servlet + JDBC Version
-Import into Eclipse/IntelliJ
-
+Import into Eclipse/IntelliJ/NetBeans
 
 Configure JDBC connection in DBConnection.java:
+
+java
+Copy
+Edit
+```
 String url = "jdbc:mysql://localhost:3306/canteen_db";
 String username = "root";
 String password = "yourpassword";
-
+```
 Deploy on Apache Tomcat
 Access at: http://localhost:8080/OnlineCollegeCanteen
 
-```
+---
 
-# 🎯 Role & Responsibilities
+## 🎯 Roles & Responsibilities
+Prince Rajput – Leader, Frontend, Backend, Database (DBA)
 
-Designed and developed Java web application using JSP, Servlet, DAO, and POJO
-Implemented database connectivity & modeling with JDBC + MySQL
-Migrated application to Spring Boot + JPA for modern scalability
-Built secure session handling & order management system
-Designed responsive JSP pages with HTML & CSS
+Nityanand Dwivedi – Developer, Frontend, Backend, PPT, Content
 
-# 🌟 Future Enhancements
+Orish Khan – Developer, Frontend, Database, Synopsis
+---
+## 🌟 Future Enhancements
 💳 Online Payment Gateway (UPI/Wallet/NetBanking)
+
 📱 Mobile App version (Android/iOS)
+
 🔔 Push Notifications for order updates
+
 📊 Analytics Dashboard for Admin
+
 🧾 Digital Invoice Generation
+---
+## 👨‍💻 Contributors
+Prince Rajput → GitHub
 
-# 👨‍💻 Contributor
-Prince Rajput – Leader , Frontend , Backend And Database(DBA) :https://github.com/Pr-09 .
+Nityanand Dwivedi → GitHub
 
-Nityanand Dwivedi – Developer, Frontend , Backend , PPT, Content : https://github.com/nitya45 .
-
-Orish khan - Developer, Frontend, Database, Synopsis :
-
-⚠️ Disclaimer
-This project is built as an academic/portfolio project for demonstration purposes only. It does not include production-grade payment systems and does not store sensitive user data.
-
-📧 Contact
+Orish Khan → (GitHub link to be added)
+---
+## ⚠️ Disclaimer
+This project is an academic/portfolio project for demonstration purposes only.
+It does not include production-grade payment systems or storage of sensitive user data.
+---
+## 📧 Contact
 Developer: Prince Rajput, Nityanand Dwivedi & Orish Khan
+
 Email: pr7509645@gmail.com
+
 GitHub: https://github.com/Pr-09
-
-
-
 
